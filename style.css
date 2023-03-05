@@ -100,7 +100,7 @@ ul {
     background-color: var(--bg-user);
     color: var(--text);
     font-size: 18px;
-    padding: 2em;
+    padding: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -120,15 +120,16 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    padding-left: 5%;
+    padding: 5%;
 }
 
 .user-info div p {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding:20px;
+    /* padding: 0; */
     border-bottom: 1px solid var(--text);
-    padding-bottom: 18px;
+    /* padding-bottom: 18px; */
 }
 
 .filter-repos,
